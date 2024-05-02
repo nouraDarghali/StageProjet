@@ -28,6 +28,11 @@ export default function Home() {
             Membre de projet
           </Link>
         </li>
+        <li>
+          <Link href="/conDB">
+            connexion
+          </Link>
+        </li>
       </ul>
     </div>
   );
