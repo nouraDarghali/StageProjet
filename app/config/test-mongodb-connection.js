@@ -1,26 +1,21 @@
-// Importer les modules nécessaires
-
-const express = require('express');
 const mongoose = require('mongoose');
-const { mongoURI } = require('../config/config'); 
-
-
+// const { mongoURI } = require('../config/config');
+const mongoURI="mongodb+srv://assyaasbabou:Hxj2FQ1ismuigA7J@cluster0.9sqdpz0.mongodb.net/app";
 const testMongoDBConnection = async () => {
-  try {
-    
-    await mongoose.connect(mongoURI, {
-    });
+    try {
+        await mongoose.connect(mongoURI, {
+            // Vos options de connexion ici
+        });
 
-    
-    console.log('Connexion à MongoDB réussie !');
+        console.log('Connexion à MongoDB réussie !');
 
-    // Déconnexion de MongoDB après le test
-    await mongoose.disconnect();
-  } catch (error) {
-    // Affichage de l'erreur en cas d'échec de la connexion
-    console.error('Erreur lors de la connexion à MongoDB :', error);
-  }
+        // Renvoyer l'instance de la base de données
+        return mongoose.connection;
+    } catch (error) {
+        console.error('Erreur lors de la connexion à MongoDB :', error);
+        throw error; // Rejeter l'erreur pour le gestionnaire d'erreurs dans route.js
+    }
 };
 
-// Appel de la fonction pour tester la connexion à MongoDB
-testMongoDBConnection();
+  export default testMongoDBConnection;
+

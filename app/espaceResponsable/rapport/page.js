@@ -1,12 +1,15 @@
-// projet.js
+'use client';
+import Layout from '../components/Layout';
 
-const RapportPage = () => {
+export default function RapportPage() {
     return (
-        <div id="resultat">
-            <h1 className="titre">RAPPORT</h1>
-            <p>Contenu de la page Projet ici...</p>
-        </div>
-    );
-};
+        <>
+            <Layout>
+                <p className="text-gray-700 text-3xl mb-16 font-bold"></p>
 
-export default RapportPage;
+
+                <div className="grid col-1 bg-white h-96 shadow-sm"></div>
+            </Layout>
+        </>
+    );
+}

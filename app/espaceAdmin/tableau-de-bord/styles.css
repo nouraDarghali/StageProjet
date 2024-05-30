@@ -1,0 +1,40 @@
+.light {
+    background-color: white;
+    color: black;
+  }
+  
+  .dark {
+    background-color: black;
+    color: white;
+  }
+  
+  .menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .theme-toggle button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  
+  .charts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .section-background {
+    background-color: var(--background-color);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .chart {
+    margin: 20px 0;
+  }
+  

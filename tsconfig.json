@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "app/espaceMembre/page.js", ".next/types/app/page.js", ".next/types/app/layout.js", ".next/types/app/responsable/page.js", ".next/types/app/espaceResponsable/ressources/page.js", ".next/types/app/espaceResponsable/page.js", "app/espaceAdmin/Layout.tsx", "app/espaceAdmin/page.tsx"  ],
   "exclude": [
     "node_modules"
   ]

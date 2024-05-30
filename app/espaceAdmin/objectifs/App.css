@@ -1,0 +1,165 @@
+.dashboard {
+    text-align: center;
+  }
+  
+  .dashboard-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .card-description {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .card-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .card-button:hover {
+    background-color: #0056b3;
+  }
+
+  .profile {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .profile-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .profile-email {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .profile-projects-title {
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  
+  .profile-projects {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .profile-projects li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  .reports {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .reports-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .reports-filter {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  .reports-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .report-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .report-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .report-content {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  .report-date {
+    font-size: 0.9em;
+    color: #555;
+  }
+
+  .history {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .history-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  canvas {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .notifications {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .notifications-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .notifications-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .notification-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+  }
+    
